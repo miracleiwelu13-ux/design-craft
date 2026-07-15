@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DesignCraft — Master UI/UX Design</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">Design<span>Craft</span></div>
+    <ul class="nav-links">
+      <li><a href="#learn">What You'll Learn</a></li>
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#instructor">Instructor</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#pricing" class="nav-cta">Enroll Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#learn">What You'll Learn</a>
+    <a href="#curriculum">Curriculum</a>
+    <a href="#instructor">Instructor</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#pricing" class="nav-cta">Enroll Now</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">Cohort 7 — Now Open</div>
+      <h1>Become a <em>UI/UX Designer</em> the world hires for</h1>
+      <p class="hero-sub">A structured 12-week online course covering research, wireframing, visual design, and prototyping — with real-world projects and 1-on-1 feedback.</p>
+      <div class="hero-actions">
+        <a href="#pricing" class="btn-primary">Enroll Now — Save 40%</a>
+        <a href="#curriculum" class="btn-ghost">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/></svg>
+          Watch preview
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>4,800+</strong><span>Students enrolled</span></div>
+        <div class="hero-stat"><strong>4.9 ★</strong><span>Average rating</span></div>
+        <div class="hero-stat"><strong>94%</strong><span>Job placement rate</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="mockup-card">
+        <div class="mockup-top">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <span class="mockup-label">DesignCraft Studio ↗</span>
+        </div>
+        <div class="mockup-screen">
+          <div class="ms-bar w80"></div>
+          <div class="ms-bar w60"></div>
+          <div class="ms-bar w45"></div>
+          <div class="ms-grid">
+            <div class="ms-box">Components</div>
+            <div class="ms-box">Typography</div>
+            <div class="ms-box">Spacing</div>
+            <div class="ms-box">Color System</div>
+          </div>
+          <div class="ms-progress">
+            <div class="ms-prog-row">
+              <span>User Research</span>
+              <div class="ms-prog-track"><div class="ms-prog-fill" style="width:90%"></div></div>
+              <span>90%</span>
+            </div>
+            <div class="ms-prog-row">
+              <span>Wireframing</span>
+              <div class="ms-prog-track"><div class="ms-prog-fill" style="width:75%"></div></div>
+              <span>75%</span>
+            </div>
+            <div class="ms-prog-row">
+              <span>Prototyping</span>
+              <div class="ms-prog-track"><div class="ms-prog-fill" style="width:60%"></div></div>
+              <span>60%</span>
+            </div>
+          </div>
+        </div>
+        <div class="floating-badge">
+          <span class="badge-icon">🎉</span>
+          <div>
+            <div>Portfolio ready</div>
+            <div class="badge-sub">Week 8 project submitted</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF STRIP -->
+<div class="strip">
+  <div class="strip-inner">
+    <div class="strip-avatars">
+      <div class="strip-avatar">AK</div>
+      <div class="strip-avatar" style="background:linear-gradient(135deg,#FF5C5C,#f97316)">BM</div>
+      <div class="strip-avatar" style="background:linear-gradient(135deg,#06b6d4,#3b82f6)">CO</div>
+      <div class="strip-avatar" style="background:linear-gradient(135deg,#10b981,#059669)">DP</div>
+    </div>
+    <span class="strip-text">Joined this week</span>
+    <span class="stars">★★★★★</span>
+    <span class="strip-text">Rated 4.9 by 2,400+ learners</span>
+  </div>
+</div>
+
+<!-- WHAT YOU'LL LEARN -->
+<section id="learn">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">What You'll Learn</div>
+      <h2 class="section-title">Skills that land<br>design jobs in 2025</h2>
+      <p class="section-sub">From day one theory to week twelve portfolio, every lesson is mapped to what real employers test in interviews.</p>
+    </div>
+    <div class="learn-grid">
+      <div class="learn-card reveal">
+        <div class="learn-icon">🔍</div>
+        <h3>User Research</h3>
+        <p>Plan and conduct interviews, synthesize insights, and translate data into design decisions that solve real problems.</p>
+      </div>
+      <div class="learn-card reveal">
+        <div class="learn-icon">🗺️</div>
+        <h3>Information Architecture</h3>
+        <p>Structure complex products with sitemaps, user flows, and card-sorting techniques that feel effortless to navigate.</p>
+      </div>
+      <div class="learn-card reveal">
+        <div class="learn-icon">✏️</div>
+        <h3>Wireframing</h3>
+        <p>Sketch fast, iterate faster. Move from napkin sketch to mid-fidelity wireframe with confidence and speed.</p>
+      </div>
+      <div class="learn-card reveal">
+        <div class="learn-icon">🎨</div>
+        <h3>Visual Design</h3>
+        <p>Build airtight design systems — color, type, spacing, and component libraries — that scale across products.</p>
+      </div>
+      <div class="learn-card reveal">
+        <div class="learn-icon">⚡</div>
+        <h3>Figma Mastery</h3>
+        <p>Auto-layout, variables, prototyping, and developer handoff. The tool, from basics to advanced features.</p>
+      </div>
+      <div class="learn-card reveal">
+        <div class="learn-icon">📊</div>
+        <h3>Usability Testing</h3>
+        <p>Run moderated and unmoderated tests, analyze recordings, and prioritize fixes with impact-effort matrices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM -->
+<section class="curriculum" id="curriculum">
+  <div class="section-inner">
+    <div class="curriculum-layout">
+      <div>
+        <div class="section-header reveal">
+          <div class="section-eyebrow">Curriculum</div>
+          <h2 class="section-title">12 weeks. Zero fluff.</h2>
+          <p class="section-sub">Every module builds on the last, ending with a portfolio-ready case study employers want to see.</p>
+        </div>
+        <div class="accordion" id="accordion">
+          <div class="acc-item open">
+            <button class="acc-header">
+              <span class="acc-num">01</span>
+              Foundations of UX Design
+              <svg class="acc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="acc-body">
+              <div class="acc-lessons">
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> What is UX? The design thinking process <span class="acc-lesson-duration">22 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Understanding users and mental models <span class="acc-lesson-duration">18 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">📄</span> Project: Define your design brief <span class="acc-lesson-duration">30 min</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-header">
+              <span class="acc-num">02</span>
+              User Research Methods
+              <svg class="acc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="acc-body">
+              <div class="acc-lessons">
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Qualitative vs. quantitative research <span class="acc-lesson-duration">20 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Conducting effective user interviews <span class="acc-lesson-duration">35 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Synthesizing with affinity maps <span class="acc-lesson-duration">25 min</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-header">
+              <span class="acc-num">03</span>
+              Information Architecture & Flows
+              <svg class="acc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="acc-body">
+              <div class="acc-lessons">
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Sitemaps and content hierarchy <span class="acc-lesson-duration">28 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> User flows and task analysis <span class="acc-lesson-duration">22 min</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-header">
+              <span class="acc-num">04</span>
+              Wireframing & Low-Fidelity Design
+              <svg class="acc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="acc-body">
+              <div class="acc-lessons">
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Sketching and rapid ideation techniques <span class="acc-lesson-duration">24 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">📄</span> Project: Mobile app wireframe <span class="acc-lesson-duration">60 min</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-header">
+              <span class="acc-num">05–12</span>
+              Visual Design, Figma, Testing & Portfolio
+              <svg class="acc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="acc-body">
+              <div class="acc-lessons">
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Design systems from scratch in Figma <span class="acc-lesson-duration">45 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">▶</span> Usability testing and iteration <span class="acc-lesson-duration">38 min</span></div>
+                <div class="acc-lesson"><span class="acc-lesson-icon">📄</span> Final project: Full case study <span class="acc-lesson-duration">Ongoing</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="curriculum-info reveal">
+        <h3>Everything in one place — no extra subscriptions.</h3>
+        <div class="info-stat-list">
+          <div class="info-stat"><div class="info-icon">🎬</div><div><strong>60+ video lessons</strong><br>Bite-sized, replayable forever</div></div>
+          <div class="info-stat"><div class="info-icon">📁</div><div><strong>12 hands-on projects</strong><br>Real briefs, real feedback</div></div>
+          <div class="info-stat"><div class="info-icon">💬</div><div><strong>Private community</strong><br>Peers + alumni + mentors</div></div>
+          <div class="info-stat"><div class="info-icon">📜</div><div><strong>Certificate of completion</strong><br>LinkedIn-ready on day 84</div></div>
+          <div class="info-stat"><div class="info-icon">🔁</div><div><strong>Lifetime access</strong><br>Course updates included</div></div>
+        </div>
+        <a href="#pricing" class="btn-primary" style="display:inline-block">Start Learning Today</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTRUCTOR -->
+<section id="instructor">
+  <div class="section-inner">
+    <div class="section-header reveal" style="text-align:center;margin-bottom:2.5rem">
+      <div class="section-eyebrow">Your Instructor</div>
+      <h2 class="section-title">Taught by a practitioner,<br>not just a teacher</h2>
+    </div>
+    <div class="instructor-card reveal">
+      <div class="instructor-avatar">AR</div>
+      <div>
+        <div class="instructor-name">Adaeze Reyes</div>
+        <div class="instructor-role">Senior Product Designer · Previously at Stripe, Intercom, Flutterwave</div>
+        <p class="instructor-bio">Over 9 years designing products used by tens of millions. Adaeze has shipped redesigns, onboarding flows, and design systems at companies across three continents. She started DesignCraft after noticing that most design education teaches tools — not judgment. Every lesson in this course comes from a real design decision she's faced in a production environment.</p>
+        <div class="instructor-tags">
+          <span class="tag">Figma Expert</span>
+          <span class="tag">Design Systems</span>
+          <span class="tag">UX Research</span>
+          <span class="tag">Product Thinking</span>
+          <span class="tag">Accessibility</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="section-inner">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-eyebrow">Student Stories</div>
+      <h2 class="section-title">Real outcomes,<br>real people</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">I had zero design background and landed a junior UX role three weeks after finishing my final project. The portfolio feedback sessions were what made the difference.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">OA</div>
+          <div>
+            <div class="testi-name">Oluwaseun Adeyemi</div>
+            <div class="testi-role">UX Designer at Paystack · Lagos</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">I was a developer trying to move into design. DesignCraft gave me a language for decisions I'd been making intuitively. My team now asks me to review their mockups.</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#06b6d4,#3b82f6)">KM</div>
+          <div>
+            <div class="testi-name">Kwame Mensah</div>
+            <div class="testi-role">Product Designer at Wave · Accra</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">The curriculum is dense in the best way. I've taken four other UX courses and this is the first one that treated me like a professional from week one.</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#f59e0b,#ef4444)">FO</div>
+          <div>
+            <div class="testi-name">Fatima Ouédraogo</div>
+            <div class="testi-role">Freelance UX Consultant · Abuja</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="section-inner">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-eyebrow">Pricing</div>
+      <h2 class="section-title">One investment.<br>A career-long return.</h2>
+      <p class="section-sub" style="margin:auto">Cohort 7 pricing ends in 3 days. No payment plan hidden fees.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card reveal">
+        <div class="price-plan">Self-Paced</div>
+        <div class="price-amount"><sup>$</sup>149</div>
+        <div class="price-period">One-time payment · Lifetime access</div>
+        <div class="price-features">
+          <div class="pf"><span class="pf-check">✓</span> All 60+ video lessons</div>
+          <div class="pf"><span class="pf-check">✓</span> Downloadable Figma files</div>
+          <div class="pf"><span class="pf-check">✓</span> Community access (1 year)</div>
+          <div class="pf"><span class="pf-check">✓</span> Certificate of completion</div>
+          <div class="pf" style="opacity:0.4"><span class="pf-check">✕</span> 1-on-1 feedback sessions</div>
+          <div class="pf" style="opacity:0.4"><span class="pf-check">✕</span> Career coaching call</div>
+        </div>
+        <a href="#" class="btn-ghost" style="display:block;text-align:center">Enroll Self-Paced</a>
+      </div>
+      <div class="price-card featured reveal">
+        <div class="price-badge">Most Popular</div>
+        <div class="price-plan">Mentored Cohort</div>
+        <div class="price-amount"><sup>$</sup>299</div>
+        <div class="price-period">One-time payment · Cohort 7 only</div>
+        <div class="price-features">
+          <div class="pf"><span class="pf-check">✓</span> Everything in Self-Paced</div>
+          <div class="pf"><span class="pf-check">✓</span> Weekly group critique sessions</div>
+          <div class="pf"><span class="pf-check">✓</span> 2× 1-on-1 feedback reviews</div>
+          <div class="pf"><span class="pf-check">✓</span> 1 career coaching call</div>
+          <div class="pf"><span class="pf-check">✓</span> Portfolio review before graduation</div>
+          <div class="pf"><span class="pf-check">✓</span> Lifetime community access</div>
+        </div>
+        <a href="#" class="btn-primary" style="display:block;text-align:center">Enroll in Cohort 7</a>
+      </div>
+    </div>
+    <p class="cta-note" style="text-align:center;margin-top:2rem">🔒 30-day money-back guarantee · No questions asked</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="padding-top:0;background:var(--navy2)">
+  <div class="section-inner">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-eyebrow">FAQ</div>
+      <h2 class="section-title">Questions people ask<br>before enrolling</h2>
+    </div>
+    <div class="faq-grid" id="faq">
+      <div class="faq-item">
+        <button class="faq-q">Do I need design experience to join? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">No prior experience is needed. The course starts from first principles and builds progressively. We've had engineers, marketers, teachers, and complete career-changers graduate and land design roles.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How much time do I need per week? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Expect to spend 6–8 hours per week: roughly 3–4 hours watching lessons and 3–4 hours on projects. The cohort is designed for people with full-time jobs.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What software do I need? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Figma — which has a free tier that covers everything you need. All other tools used in the course are free or have free versions.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is the certificate recognized by employers? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">The certificate is a nice signal, but your portfolio is what employers actually evaluate. This course is built around producing portfolio work that gets interviews, not a credential for its own sake.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What's your refund policy? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">You have 30 days from purchase to request a full refund — no questions asked. Email support@designcraft.co and we'll process it within 2 business days.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <h2>Ready to start designing?</h2>
+    <p>Cohort 7 begins soon. Spots are limited to keep feedback quality high.</p>
+    <div class="cta-group">
+      <a href="#pricing" class="btn-primary">Enroll Now — Save 40%</a>
+      <a href="#curriculum" class="btn-ghost">View full curriculum</a>
+    </div>
+    <p class="cta-note">🔒 30-day money-back guarantee · Cancel anytime before cohort start</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Design<span>Craft</span></div>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+      <a href="#">Affiliate</a>
+    </div>
+    <p class="footer-copy">© 2025 DesignCraft. All rights reserved.</p>
+  </div>
+</footer>
+<script src="JS/script.js"></script>
+</body>
+</html>
