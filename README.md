@@ -30,9 +30,6 @@
 
 **DesignCraft** is a premium, conversion-optimized landing page for a 12-week UI/UX design course. Built with vanilla HTML/CSS/JS and zero dependencies. Features include interactive curriculum accordion, pricing tiers, testimonials, and mobile-first responsive design.
 
-**Live Demo:** [View Demo](https://your-demo-link.com)
-
----
 
 ## 🎯 Features
 
